@@ -3,10 +3,10 @@
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.8.1</version>
+            <version>3.8.1</version>  <!-- You can use the latest version of the plugin -->
             <configuration>
-                <source>11</source>   <!-- Use Java 11 -->
-                <target>11</target>   <!-- Use Java 11 -->
+                <source>11</source>   <!-- Set this to 11 or 8, depending on your project requirements -->
+                <target>11</target>   <!-- Set this to 11 or 8 -->
             </configuration>
         </plugin>
     </plugins>
