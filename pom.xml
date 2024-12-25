@@ -1,13 +1,13 @@
 <build>
-    <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.8.1</version>  <!-- You can use the latest version of the plugin -->
-            <configuration>
-                <source>11</source>   <!-- Set this to 11 or 8, depending on your project requirements -->
-                <target>11</target>   <!-- Set this to 11 or 8 -->
-            </configuration>
-        </plugin>
-    </plugins>
+  <plugins>
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-compiler-plugin</artifactId>
+      <version>3.8.1</version>
+      <configuration>
+        <source>17</source> <!-- Set to Java 17 -->
+        <target>17</target> <!-- Set to Java 17 -->
+      </configuration>
+    </plugin>
+  </plugins>
 </build>
